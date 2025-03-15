@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Arpit8789/Leetcode/tree/master/0069-sqrtx) |
+| [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
 ## Bit Manipulation
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Arpit8789/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Arpit8789/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Arpit8789/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Arpit8789/Leetcode/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Arpit8789/Leetcode/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
 ## Sorting
