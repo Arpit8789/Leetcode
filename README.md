@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Arpit8789/Leetcode/tree/master/0283-move-zeroes) |
+| [0485-max-consecutive-ones](https://github.com/Arpit8789/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
