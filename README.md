@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Arpit8789/Leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Arpit8789/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Arpit8789/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0136-single-number](https://github.com/Arpit8789/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
