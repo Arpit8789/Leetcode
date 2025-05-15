@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/Arpit8789/Leetcode/tree/master/2690-house-robber-iv) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3778-transform-array-by-parity](https://github.com/Arpit8789/Leetcode/tree/master/3778-transform-array-by-parity) |
 ## Two Pointers
 |  |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Arpit8789/Leetcode/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arpit8789/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Stack
 |  |
 | ------- |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Arpit8789/Leetcode/tree/master/0011-container-with-most-water) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -140,4 +143,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpit8789/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 <!---LeetCode Topics End-->
