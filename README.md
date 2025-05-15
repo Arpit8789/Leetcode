@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Arpit8789/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Arpit8789/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Arpit8789/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Arpit8789/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
+| [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3778-transform-array-by-parity](https://github.com/Arpit8789/Leetcode/tree/master/3778-transform-array-by-parity) |
 ## Hash Table
 |  |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 ## Binary Search
 |  |
@@ -119,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
+| [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 ## Number Theory
 |  |
 | ------- |
