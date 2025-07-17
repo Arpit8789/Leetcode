@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
+| [2050-count-good-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2050-count-good-numbers) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
+| [2050-count-good-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2050-count-good-numbers) |
 ## Array
 |  |
 | ------- |
