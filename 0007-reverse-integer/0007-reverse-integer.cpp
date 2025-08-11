@@ -1,16 +1,19 @@
 class Solution {
 public:
     int reverse(int x) {
-        int n=x;
-        int ans=0;
-        while(x!=0)
-        {
-            int dig=x%10;
-            if((ans>INT_MAX/10) || (ans<INT_MIN/10))
-                return 0;
-            ans=(ans*10)+dig;
-            x=x/10;
+        long long rev = 0;  // bigger type for safety
+        int num = x;
+        
+        while (num != 0) {
+            int d = num % 10;
+            rev = rev * 10 + d;
+            
+            // check overflow
+            if (rev > INT_MAX || rev < INT_MIN) {
+                return 0; // as per LeetCode rule
+            }
+            num /= 10;
         }
-        return ans;
+        return (int)rev;
     }
 };
