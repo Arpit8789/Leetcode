@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Arpit8789/Leetcode/tree/master/0020-valid-parentheses) |
+| [0225-implement-stack-using-queues](https://github.com/Arpit8789/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Arpit8789/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arpit8789/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Simulation
@@ -197,9 +198,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Arpit8789/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Arpit8789/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Arpit8789/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Arpit8789/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
