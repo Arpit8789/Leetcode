@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
+| [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2050-count-good-numbers) |
 ## Bit Manipulation
 |  |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
+| [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2050-count-good-numbers) |
 ## Array
 |  |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Arpit8789/Leetcode/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpit8789/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Backtracking
 |  |
@@ -212,4 +215,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Arpit8789/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Arpit8789/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
