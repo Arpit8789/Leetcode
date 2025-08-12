@@ -1,21 +1,24 @@
-#include <iostream>
-#include <cctype>
-using namespace std;
-
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int left = 0, right = s.length() - 1;
-
-        while (left < right) {
-            while (left < right && !isalnum(s[left])) left++;   // Skip non-alphanumeric
-            while (left < right && !isalnum(s[right])) right--; // Skip non-alphanumeric
-            
-            if (tolower(s[left]) != tolower(s[right])) return false;
-            
-            left++;
-            right--;
+        string result = "";
+        for (char c : s) {
+            if (isalnum(c)) {                
+                result += tolower(c);        
+            }
+        }
+        string res1=result;
+        cout<<result<<" ";
+        int sz=result.size();
+        for(int i=0;i<sz/2;i++)
+        {
+            if(result[i]!=result[sz-i-1])
+            {
+                return false;
+            }
         }
         return true;
+            
+        
     }
 };
