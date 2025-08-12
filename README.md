@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Arpit8789/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Arpit8789/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Arpit8789/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Arpit8789/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
+| [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Arpit8789/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Trie
 |  |
