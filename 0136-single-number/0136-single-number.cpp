@@ -1,10 +1,18 @@
 class Solution {
 public:
-    int singleNumber(std::vector<int>& nums) {
-        int result = 0;
-        for (int num : nums) {  // Corrected for-loop syntax
-            result ^= num;  
+    int singleNumber(vector<int>& nums) {
+        int n=nums.size();
+        map<int,int> mpp;
+        for(int i=0;i<n;i++)
+        {
+            mpp[nums[i]]++;
         }
-        return result;
+        for(auto it:mpp)
+        {
+            if(it.second==1)
+                return it.first;
+        }
+        return -1;
+        
     }
 };
