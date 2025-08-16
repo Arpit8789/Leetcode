@@ -1,15 +1,16 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-
-        unordered_map<int, int> mp; // number -> index
-        for (int i = 0; i < nums.size(); i++) {
+        unordered_map<int,int> mpp;  // num -> index
+        for(int i = 0; i < nums.size(); i++) {
             int complement = target - nums[i];
-            if (mp.find(complement) != mp.end()) {
-                return {mp[complement], i}; // found the pair
+            
+            if(mpp.find(complement) != mpp.end()) {
+                return {mpp[complement], i};
             }
-            mp[nums[i]] = i; // store index of current number
+            
+            mpp[nums[i]] = i;  // store current number with index
         }
-        return {}; // no pair found
+        return {}; // not found
     }
 };
