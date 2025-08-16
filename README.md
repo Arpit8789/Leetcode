@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
+| [0217-contains-duplicate](https://github.com/Arpit8789/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Arpit8789/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Arpit8789/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Arpit8789/Leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Arpit8789/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Arpit8789/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3778-transform-array-by-parity](https://github.com/Arpit8789/Leetcode/tree/master/3778-transform-array-by-parity) |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Arpit8789/Leetcode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Arpit8789/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/Arpit8789/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
