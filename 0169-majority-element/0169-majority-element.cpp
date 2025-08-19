@@ -1,18 +1,19 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        unordered_set<int> unique_elements(nums.begin(), nums.end()); // Get unique elements
-        int n = nums.size();
-
-        for (int elem : unique_elements) { 
-            int count = 0;
-            for (int num : nums) {
-                if (num == elem) count++;
-            }
-            if (count > n / 2) return elem; // Majority element condition
+        int sz=nums.size();
+        unordered_map<int,int> mpp;
+        for(int i=0;i<sz;i++)
+        {
+            mpp[nums[i]]++;
         }
-
-        return -1; // This case won't occur as per the problem guarantee
+        for(auto it:mpp)
+        {
+            if(it.second>sz/2)
+            {
+                return it.first;
+            }
+        }
+        return 1;
     }
 };
-
