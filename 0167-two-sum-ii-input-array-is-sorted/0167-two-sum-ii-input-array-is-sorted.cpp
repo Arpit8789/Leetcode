@@ -1,17 +1,22 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
-        unordered_map<int, int> mpp; // value -> index
-        int sz = numbers.size();
+        int l = 0, r = numbers.size() - 1;
 
-        for (int i = 0; i < sz; i++) {
-            int comp = target - numbers[i];
-            if (mpp.find(comp) != mpp.end()) {
-                return {mpp[comp] + 1, i + 1}; 
-                
+        while (l < r) {
+            int sum = numbers[l] + numbers[r];
+
+            if (sum == target) {
+                // +1 because the problem usually expects 1-based indexing
+                return {l + 1, r + 1};
             }
-            mpp[numbers[i]] = i;
+            else if (sum < target) {
+                l++; // move left pointer right to increase sum
+            }
+            else {
+                r--; // move right pointer left to decrease sum
+            }
         }
-        return {};
+        return {}; // no solution (though problem guarantees one exists)
     }
 };
