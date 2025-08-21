@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1161-project-employees-i](https://github.com/Arpit8789/Leetcode/tree/master/1161-project-employees-i) |
 | [1734-bank-account-summary-ii](https://github.com/Arpit8789/Leetcode/tree/master/1734-bank-account-summary-ii) |
+| [2041-the-latest-login-in-2020](https://github.com/Arpit8789/Leetcode/tree/master/2041-the-latest-login-in-2020) |
 ## Prefix Sum
 |  |
 | ------- |
