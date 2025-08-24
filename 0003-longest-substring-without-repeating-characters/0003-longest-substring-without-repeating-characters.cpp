@@ -1,21 +1,20 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        vector<int> hash(256, -1); // use vector instead of hash[]
-        int n = s.size();
-        int l = 0, r = 0, maxlen = 0;
+        string curr = "";   // this will store current substring without duplicates
+        int maxLen = 0;
 
-        while (r < n) {
-            if (hash[s[r]] != -1 && hash[s[r]] >= l) {
-                l = hash[s[r]] + 1;  // Move left pointer
+        for (int i = 0; i < s.size(); i++) {
+            // check if current char already exists in curr
+            if (curr.find(s[i]) != string::npos) {
+                // if duplicate found, remove chars from beginning until duplicate removed
+                curr = curr.substr(curr.find(s[i]) + 1);
             }
-
-            hash[s[r]] = r;  // Update last seen index of character
-            int len = r - l + 1;
-            maxlen = max(len, maxlen);
-            r++;
+            // add current char
+            curr += s[i];
+            // update maxLen
+            maxLen = max(maxLen, (int)curr.size());
         }
-
-        return maxlen;
+        return maxLen;
     }
 };
