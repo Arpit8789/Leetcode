@@ -1,59 +1,45 @@
-#include <queue>
-using namespace std;
-
 class MyStack {
 public:
-    queue<int> q1; // main queue
-    queue<int> q2; // helper queue
-
-    MyStack() {}
-
-    // Push element x onto stack.
+    queue<int> qu1;
+    queue<int> qu2;
+    MyStack() {
+        
+    }
+    
     void push(int x) {
-        q1.push(x);
+        qu1.push(x);
     }
-
-    // Removes the element on top of the stack and returns it.
+    
     int pop() {
-        // Move elements from q1 to q2, leaving last element in q1
-        while (q1.size() > 1) {
-            q2.push(q1.front());
-            q1.pop();
+        while(qu1.size()>1)
+        {
+            qu2.push(qu1.front());
+            qu1.pop();
         }
-
-        // Last element in q1 is the top of stack
-        int topElem = q1.front();
-        q1.pop();
-
-        // Swap q1 and q2 so q1 has all elements again
-        swap(q1, q2);
-
-        return topElem;
+        int top=qu1.front();
+        qu1.pop();
+        swap(qu1,qu2);
+        return top;
     }
-
-    // Get the top element.
+    
     int top() {
-        // Similar to pop, but don't remove the element
-        while (q1.size() > 1) {
-            q2.push(q1.front());
-            q1.pop();
+        while(qu1.size()>1)
+        {
+            qu2.push(qu1.front());
+            qu1.pop();
         }
-
-        int topElem = q1.front();
-        q2.push(topElem); // Put it back into q2
-        q1.pop();
-
-        swap(q1, q2);
-
-        return topElem;
+        int topw=qu1.front();
+        qu2.push(topw);
+        qu1.pop();
+        swap(qu1,qu2);
+        return topw;
+        
     }
-
-    // Returns whether the stack is empty.
+    
     bool empty() {
-        return q1.empty();
+        return qu1.empty();
     }
 };
-
 
 /**
  * Your MyStack object will be instantiated and called as such:
