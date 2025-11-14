@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Arpit8789/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
+| [0213-house-robber-ii](https://github.com/Arpit8789/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Arpit8789/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Arpit8789/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Arpit8789/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Arpit8789/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Arpit8789/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpit8789/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0213-house-robber-ii](https://github.com/Arpit8789/Leetcode/tree/master/0213-house-robber-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
