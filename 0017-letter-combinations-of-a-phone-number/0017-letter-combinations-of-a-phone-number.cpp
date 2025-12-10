@@ -1,32 +1,30 @@
 class Solution {
 public:
-    vector<string> letterCombinations(string digits) {
-        if (digits.empty()) return {};
-
-        vector<string> result;
-        string current;
-
-        vector<string> mapping ={
-            "","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"
-        };
-
-        backtrack(digits , 0 ,mapping , current , result);
-        return result;
-        
-    }
-    void backtrack(const string& digits,int index, const vector<string>& mapping, string& current, vector<string>& result) {
-        if(index == digits.length())
+    void solve(vector<string>&ans,string output,string digits,int index,string mapping[])
+    {
+        if(index>=digits.length())
         {
-            result.push_back(current);
+            ans.push_back(output);
             return;
         }
-
-        string letters= mapping[digits[index] - '0'];
-        for (char c: letters)
+        int val=digits[index]-'0';
+        string valstr=mapping[val];
+        for(int i=0;i<valstr.length();i++)
         {
-            current.push_back(c);
-            backtrack(digits,index+1,mapping , current,result);
-            current.pop_back();
+            output.push_back(valstr[i]);
+            solve(ans,output,digits,index+1,mapping);
+            output.pop_back();
         }
+    }
+    vector<string> letterCombinations(string digits) {
+       string output="";
+       vector<string> ans;
+       if(digits.length()==0)
+            return ans;
+       string mapping[10]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        
+       int index=0;
+       solve(ans,output,digits,index,mapping);
+       return ans; 
     }
 };
