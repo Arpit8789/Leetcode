@@ -1,29 +1,36 @@
 class Solution {
-public:
-    void findCombination(int ind,int target,vector<int> &arr,vector<vector<int>> &ans,vector<int> &ds)
+private:
+    void solve(vector<vector<int>> &ans,
+               vector<int> &v,
+               vector<int> &candidates,
+               int target,
+               int i)
     {
-        if(ind == arr.size())
-        {
-            if(target == 0)
-            {
-                ans.push_back(ds);
-            }
+        // valid combination
+        if (target == 0) {
+            ans.push_back(v);
             return;
         }
-        if(arr[ind]<=target)
-        {
-            ds.push_back(arr[ind]);
-            findCombination(ind,target - arr[ind],arr,ans,ds);
-            ds.pop_back();
+
+        // out of bounds or target exceeded
+        if (i >= candidates.size() || target < 0) {
+            return;
         }
-        findCombination(ind+1,target,arr,ans,ds);
+
+        // PICK the element (can reuse same index)
+        v.push_back(candidates[i]);
+        solve(ans, v, candidates, target - candidates[i], i);
+        v.pop_back();
+
+        // NOT PICK the element (move to next index)
+        solve(ans, v, candidates, target, i + 1);
     }
+
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
-        vector<int> ds;
-        findCombination(0, target,candidates ,ans,ds);
+        vector<int> v;
+        solve(ans, v, candidates, target, 0);
         return ans;
-        
     }
 };
