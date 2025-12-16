@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Arpit8789/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1539-kth-missing-positive-number](https://github.com/Arpit8789/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Arpit8789/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Arpit8789/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0792-binary-search) |
+| [1539-kth-missing-positive-number](https://github.com/Arpit8789/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/Arpit8789/Leetcode/tree/master/2690-house-robber-iv) |
 ## String
