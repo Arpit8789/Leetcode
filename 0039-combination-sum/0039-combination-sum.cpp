@@ -1,36 +1,30 @@
 class Solution {
 private:
-    void solve(vector<vector<int>> &ans,
-               vector<int> &v,
-               vector<int> &candidates,
-               int target,
-               int i)
+    void solve(vector<int> nums, int target,vector<vector<int>>& ans,vector<int> v,int i,int sum,int n)
     {
-        // valid combination
-        if (target == 0) {
+        if(i>=n || sum>target)
+        {
+            return;
+        }
+        if(sum==target)
+        {
             ans.push_back(v);
             return;
         }
-
-        // out of bounds or target exceeded
-        if (i >= candidates.size() || target < 0) {
-            return;
-        }
-
-        // PICK the element (can reuse same index)
-        v.push_back(candidates[i]);
-        solve(ans, v, candidates, target - candidates[i], i);
+        v.push_back(nums[i]);
+        sum+=nums[i];
+        solve(nums,target,ans,v,i,sum,n);
         v.pop_back();
+        sum-=nums[i];
+        solve(nums,target,ans,v,i+1,sum,n);
 
-        // NOT PICK the element (move to next index)
-        solve(ans, v, candidates, target, i + 1);
     }
-
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
         vector<int> v;
-        solve(ans, v, candidates, target, 0);
+        int i=0,sum=0,n=candidates.size();
+        solve(candidates,target,ans,v,i,sum,n);
         return ans;
     }
 };
