@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Arpit8789/Leetcode/tree/master/0058-length-of-last-word) |
 | [0093-restore-ip-addresses](https://github.com/Arpit8789/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/Arpit8789/Leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Arpit8789/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Arpit8789/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Arpit8789/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Arpit8789/Leetcode/tree/master/0242-valid-anagram) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Arpit8789/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Arpit8789/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arpit8789/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Arpit8789/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0213-house-robber-ii](https://github.com/Arpit8789/Leetcode/tree/master/0213-house-robber-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Arpit8789/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Arpit8789/Leetcode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/Arpit8789/Leetcode/tree/master/0093-restore-ip-addresses) |
+| [0131-palindrome-partitioning](https://github.com/Arpit8789/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Arpit8789/Leetcode/tree/master/0216-combination-sum-iii) |
 ## Database
 |  |
