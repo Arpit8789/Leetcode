@@ -1,25 +1,34 @@
 class Solution {
-public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> result;
-        backtrack(result,"",n,n);
-        return result;
-    }
-    void backtrack(vector<string>& result,string current,int open ,int close)
+private:
+    void solve(int open,int close,int n,string cur_str,vector<string>& result)
     {
-        if(open ==0 && close ==0)
+        if(open==n && close==n)
         {
-            result.push_back(current);
+            result.push_back(cur_str);
             return;
         }
-
-        if (open > 0)
+        if(open>n || close>open)
+            return;
+        if(open<n)
         {
-            backtrack(result,current + '(',open -1 ,close);
+            cur_str+="(";
+            solve(open+1,close,n,cur_str,result);
+            cur_str.pop_back();
         }
-        if(close > open)
+        if(close<open)
         {
-            backtrack(result,current + ')' ,open , close-1);
+            cur_str+=")";
+            solve(open,close+1,n,cur_str,result);
+            cur_str.pop_back();
         }
+    }
+public:
+    vector<string> generateParenthesis(int n) {
+        int open=0;
+        int close=0;
+        string cur_str;
+        vector<string> result;
+        solve(open,close,n,cur_str,result);
+        return result;
     }
 };
