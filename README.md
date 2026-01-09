@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Arpit8789/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
+| [1079-letter-tile-possibilities](https://github.com/Arpit8789/Leetcode/tree/master/1079-letter-tile-possibilities) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Arpit8789/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Arpit8789/Leetcode/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Arpit8789/Leetcode/tree/master/0567-permutation-in-string) |
+| [1079-letter-tile-possibilities](https://github.com/Arpit8789/Leetcode/tree/master/1079-letter-tile-possibilities) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arpit8789/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arpit8789/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Stack
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Arpit8789/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Arpit8789/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1079-letter-tile-possibilities](https://github.com/Arpit8789/Leetcode/tree/master/1079-letter-tile-possibilities) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arpit8789/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3778-transform-array-by-parity](https://github.com/Arpit8789/Leetcode/tree/master/3778-transform-array-by-parity) |
@@ -291,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Arpit8789/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Arpit8789/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0491-non-decreasing-subsequences](https://github.com/Arpit8789/Leetcode/tree/master/0491-non-decreasing-subsequences) |
+| [1079-letter-tile-possibilities](https://github.com/Arpit8789/Leetcode/tree/master/1079-letter-tile-possibilities) |
 ## Database
 |  |
 | ------- |
