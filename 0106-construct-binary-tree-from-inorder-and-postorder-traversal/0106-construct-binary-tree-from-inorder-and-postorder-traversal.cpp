@@ -1,38 +1,45 @@
-
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    unordered_map<int, int> value_index_map; // value -> index in inorder
+    void createmapping(vector<int> inorder,int n,map<int,int> &nodetoindex)
+    {
+        for(int i=0;i<n;i++)
+        {
+            nodetoindex[inorder[i]]=i;
+        }
+    }
+    TreeNode* solve(vector<int> inorder, vector<int> postorder,int &index,int inorderstart,int inorderend,int n,map<int,int> &nodetoindex)
+    {
+        if(index < 0 || inorderstart > inorderend)
+        {
+            return NULL;
+        }
+        int element =postorder[index--];
+        TreeNode* root=new TreeNode(element);
 
-    TreeNode* buildTreeHelper(vector<int>& inorder, vector<int>& postorder,
-                              int inStart, int inEnd, int& postIndex) {
-        // Base case: no elements
-        if (inStart > inEnd) return nullptr;
+        int position=nodetoindex[element];
 
-        // Step 1: Pick current root from postorder
-        int rootVal = postorder[postIndex];
-        TreeNode* root = new TreeNode(rootVal);
-        postIndex--;
-
-        // Step 2: Find root index in inorder using hash map
-        int inIndex = value_index_map[rootVal];
-
-        // Step 3: Recursively build right and left subtrees
-        root->right = buildTreeHelper(inorder, postorder, inIndex + 1, inEnd, postIndex);
-        root->left  = buildTreeHelper(inorder, postorder, inStart, inIndex - 1, postIndex);
-
+        root->right= solve(inorder,postorder,index,position+1,inorderend,n,nodetoindex);
+        root->left= solve(inorder,postorder,index,inorderstart,position-1,n,nodetoindex);
         return root;
     }
-
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int n = inorder.size();
+
+        int n=inorder.size();
+        map<int,int> nodetoindex;
         int postIndex = n - 1;
-
-        // Fill hash map: value -> index in inorder
-        for (int i = 0; i < n; i++) {
-            value_index_map[inorder[i]] = i;
-        }
-
-        return buildTreeHelper(inorder, postorder, 0, n - 1, postIndex);
+        createmapping(inorder,n,nodetoindex);
+        TreeNode* ans=solve(inorder,postorder,postIndex,0,n-1,n,nodetoindex);
+        return ans;
     }
 };
