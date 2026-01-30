@@ -11,24 +11,39 @@
  */
 class Solution {
 public:
+    void solve(TreeNode* p,TreeNode* q,bool& flag)
+    {
+        
+        
+        if(p==NULL && q==NULL)
+        {
+            return;
+        }
+        if(p!=NULL && q==NULL)
+        {
+            flag=false;
+            return;
+        }
+        if(p==NULL && q!=NULL)
+        {
+            flag=false;
+            return;
+        }
+        if(p->val!=q->val)
+        {
+            flag=false;
+            return;
+        }
+        solve(p->left,q->left,flag);
+        solve(p->right,q->right,flag);
+
+        
+    }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-
-        // Case 1: both NULL
-        if(p == NULL && q == NULL)
-            return true;
-
-        // Case 2: one NULL
-        if(p == NULL || q == NULL)
-            return false;
-
-        // Case 3: values not equal
-        if(p->val != q->val)
-            return false;
-
-        // Case 4 & 5: check subtrees
-        bool left  = isSameTree(p->left, q->left);
-        bool right = isSameTree(p->right, q->right);
-
-        return left && right;
+        
+        bool flag=true;
+        solve(p,q,flag);
+        return flag;
+        
     }
 };
