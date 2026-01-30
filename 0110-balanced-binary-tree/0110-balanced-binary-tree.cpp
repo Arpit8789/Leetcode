@@ -11,31 +11,31 @@
  */
 class Solution {
 public:
-    pair<bool,int> fastbalanced(TreeNode* root)
+    int height(TreeNode* root,bool& flag)
     {
-        if(root == NULL)
-            return {true,0};
-
-        pair<int,int> left =fastbalanced(root->left);
-        pair<int,int> right =fastbalanced(root->right);
-
-        bool leftdiff=left.first;
-        bool rightdiff=right.first;
-
-        bool diff=abs(left.second-right.second)<=1;
-        pair<bool,int> ans;
-        ans.second=max(left.second,right.second)+1;
-        if(leftdiff && rightdiff && diff)
+        
+        if(root==NULL)
         {
-            ans.first=true;
+            return -1;
+        }
+        if(flag==false)
+            return 0;
+        int hleft=height(root->left,flag);
+        int hright=height(root->right,flag);
+        if(abs(hleft-hright)>1)
+        {
+            flag=false;
+            return 0;
         }
         else
-        {
-            ans.second=false;
-        }
-        return ans;
+            return max(hleft,hright)+1;
     }
     bool isBalanced(TreeNode* root) {
-        return fastbalanced(root).first;
+        if(root==NULL)
+            return true;
+        bool flag=true;
+        height(root,flag);
+        return flag;
+        
     }
 };
