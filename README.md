@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Arpit8789/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Arpit8789/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Arpit8789/Leetcode/tree/master/0268-missing-number) |
+| [0878-nth-magical-number](https://github.com/Arpit8789/Leetcode/tree/master/0878-nth-magical-number) |
 | [1013-fibonacci-number](https://github.com/Arpit8789/Leetcode/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/Arpit8789/Leetcode/tree/master/1642-water-bottles) |
 | [2050-count-good-numbers](https://github.com/Arpit8789/Leetcode/tree/master/2050-count-good-numbers) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0792-binary-search) |
+| [0878-nth-magical-number](https://github.com/Arpit8789/Leetcode/tree/master/0878-nth-magical-number) |
 | [1539-kth-missing-positive-number](https://github.com/Arpit8789/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/Arpit8789/Leetcode/tree/master/2690-house-robber-iv) |
