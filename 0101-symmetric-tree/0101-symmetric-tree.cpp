@@ -11,17 +11,33 @@
  */
 class Solution {
 public:
-    bool isMirror(TreeNode* left, TreeNode* right) {
-        if (!left && !right) return true;
-        if (!left || !right) return false;
-        if (left->val != right->val) return false;
-
-        return isMirror(left->left, right->right) &&
-               isMirror(left->right, right->left);
+    void symmetry(TreeNode* rootl,TreeNode* rootr,bool& flag)
+    {
+        if(rootl==NULL && rootr==NULL)
+            return;
+        if(rootl!=NULL && rootr==NULL)
+        {
+            flag=false;
+            return;
+        }
+        if(rootl==NULL && rootr!=NULL)
+        {
+            flag=false;
+            return;
+        }
+        if(rootl->val!=rootr->val)
+        {
+            flag=false;
+            return;
+        }
+        symmetry(rootl->left,rootr->right,flag);
+        symmetry(rootl->right,rootr->left,flag);
     }
-
     bool isSymmetric(TreeNode* root) {
-        if (!root) return true;
-        return isMirror(root->left, root->right);
+        bool flag=true;
+        if(root==NULL)
+            return flag;
+        symmetry(root->left,root->right,flag);
+        return flag;
     }
 };
