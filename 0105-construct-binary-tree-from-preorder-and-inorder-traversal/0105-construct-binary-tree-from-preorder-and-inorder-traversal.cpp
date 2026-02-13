@@ -11,36 +11,22 @@
  */
 class Solution {
 public:
-    void createmapping(vector<int> inorder,map<int,int> &nodeToIndex, int n)
-    {
-        for(int i=0;i<n;i++)
-        {
-            nodeToIndex[inorder[i]]=i;
-        }
-    }
-    TreeNode* solve(vector<int>& preorder, vector<int>& inorder , int &index,int inorderstart,int inorderEnd,int n,map<int,int> &nodeToIndex)
-    {
-        if(index >=n || inorderstart > inorderEnd)
-        {
-            return NULL;
-        }
-
-        int element = preorder[index++];
-        TreeNode* root=new TreeNode(element);
-        int position = nodeToIndex[element];
-
-        root->left=solve(preorder,inorder,index,inorderstart,position-1,n,nodeToIndex);
-        root->right=solve(preorder,inorder,index,position+1,inorderEnd,n,nodeToIndex);
+    TreeNode* solve(vector<int>& pre, vector<int>& in,auto& mpp,int s,int e,int& beg){
+        if(s>e) return 0;
+        int idx=mpp[pre[beg]];
+        // cout<<pre[beg]<<endl;
+        TreeNode* root=new TreeNode(pre[beg++]);
+        root->left=solve(pre,in,mpp,s,idx-1,beg);
+        root->right=solve(pre,in,mpp,idx+1,e,beg);
         return root;
-
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int n=preorder.size();
-        int preOrderIndex =0;
-        map<int,int> nodeToIndex;
-        createmapping(inorder,nodeToIndex,n);
-
-        TreeNode* ans=solve(preorder,inorder,preOrderIndex,0,n-1,n,nodeToIndex);
-        return ans;
+        map<int,int> mpp;
+        for(int i=0;i<inorder.size();i++)
+        {
+            mpp[inorder[i]]=i;
+        }
+        int beg=0;
+        return solve(preorder,inorder,mpp,0,inorder.size()-1,beg);
     }
 };
