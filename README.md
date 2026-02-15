@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Arpit8789/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Arpit8789/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Arpit8789/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Arpit8789/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Arpit8789/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0878-nth-magical-number](https://github.com/Arpit8789/Leetcode/tree/master/0878-nth-magical-number) |
 | [1539-kth-missing-positive-number](https://github.com/Arpit8789/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Arpit8789/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
