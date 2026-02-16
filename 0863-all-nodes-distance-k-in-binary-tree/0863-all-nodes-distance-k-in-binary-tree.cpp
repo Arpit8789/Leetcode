@@ -1,40 +1,92 @@
 class Solution {
 public:
-    bool found = 0;
-    bool solve(TreeNode* root, TreeNode* target, int& k, vector<int>& v) {
-        if (root == NULL)
-            return 0;
-        found = found || root==target;
-        bool l=0,r=0;
-        if(found){
-            k--;
-            solve(root->right,target,k,v);
-            solve(root->left,target,k,v);
-            k++;
-        }else {
-        if(l=solve(root->left,target,k,v)){
-            k--;
-            solve(root->right,target,k,v);
-            k++;
-        }else if(r=solve(root->right,target,k,v)){
-            k--;
-            solve(root->left,target,k,v);
-            k++;
-        }
-        }
-        // if(root->val==7) cout<<k;
-        if(found && k==0){
-            v.push_back(root->val);
-        }
-        
 
-        if (l || r || root == target)
-            k--;
-        return l || r || root == target;
+    void parentmapping(TreeNode* root, map<TreeNode*, TreeNode*>& mpp) {
+        if (root == NULL)
+            return;
+
+        queue<TreeNode*> q;
+        q.push(root);
+
+        while (!q.empty()) {
+            TreeNode* temp = q.front();
+            q.pop();
+
+            if (temp->left) {
+                mpp[temp->left] = temp;
+                q.push(temp->left);
+            }
+
+            if (temp->right) {
+                mpp[temp->right] = temp;
+                q.push(temp->right);
+            }
+        }
     }
+
+    void distancemoving(TreeNode* target,
+                        int k,
+                        vector<int>& ans,
+                        map<TreeNode*, TreeNode*>& mpp)
+    {
+        queue<TreeNode*> q;
+        q.push(target);
+
+        unordered_map<TreeNode*, bool> visited;
+        visited[target] = true;
+
+        int ctr = 0;
+
+        while (!q.empty())
+        {
+            int size = q.size();
+
+            if (ctr == k)
+            {
+                while (!q.empty())
+                {
+                    ans.push_back(q.front()->val);
+                    q.pop();
+                }
+                return;
+            }
+
+            for (int i = 0; i < size; i++)
+            {
+                TreeNode* temp = q.front();
+                q.pop();
+
+                if (temp->left && !visited[temp->left])
+                {
+                    visited[temp->left] = true;
+                    q.push(temp->left);
+                }
+
+                if (temp->right && !visited[temp->right])
+                {
+                    visited[temp->right] = true;
+                    q.push(temp->right);
+                }
+
+                if (mpp[temp] && !visited[mpp[temp]])
+                {
+                    visited[mpp[temp]] = true;
+                    q.push(mpp[temp]);
+                }
+            }
+
+            ctr++;   // increment AFTER finishing one level
+        }
+    }
+
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+
+        map<TreeNode*, TreeNode*> mpp;
+        parentmapping(root, mpp);
+
         vector<int> ans;
-        solve(root, target, k, ans);
+        distancemoving(target, k, ans, mpp);
+
         return ans;
     }
 };
