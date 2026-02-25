@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Arpit8789/Leetcode/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Arpit8789/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Arpit8789/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1319-unique-number-of-occurrences](https://github.com/Arpit8789/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Arpit8789/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Arpit8789/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Arpit8789/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arpit8789/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Arpit8789/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Arpit8789/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/Arpit8789/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Tree
 |  |
 | ------- |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/Arpit8789/Leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Arpit8789/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
@@ -474,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/Arpit8789/Leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/Arpit8789/Leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Arpit8789/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Interactive
@@ -502,4 +507,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/Arpit8789/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Arpit8789/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Arpit8789/Leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Arpit8789/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
